@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* *::selection{
+  background-color: black;
+  color: #fff;
+} */
+
+.main {
+  width: 100%;
+}
+
+.main nav {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: auto; */
+  height: 85px;
+  box-shadow: 2px 2px 3px 5px rgb(42, 1, 79);
+}
+
+.main nav h1 {
+  font-size: 500;
+  /* margin: auto; */
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  /* margin: auto; */
+}
+
+.btn {
+  background-color: rgb(42, 1, 79);
+  padding: 8px 12px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin: auto; */
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: rgb(42, 1, 79);
+  border: 1px solid rgb(42, 1, 79);
+}
+
+.link:hover {
+  color: rgb(42, 1, 79);
+}
+
+.add-reminder-page {
+  border: 1px SOLID black;
+  padding: 20px 50px;
+  width: 35%;
+}
+
+.add-reminder-page input {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 500;
+  color: #1d2129;
+}
+
+.add-reminder-page P {
+  margin-top: 30px;
+}
+
+.submit-btn {
+  background-color: #1877f2;
+  color: #fff;
+  display: block;
+  border: none;
+  padding: 8px 12px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+#carts {
+  /* display: flex; */
+  /* border: 2px solid green; */
+  margin: 50px 5vw;
+  /* justify-content: space-between; */
+}
+
+.remindme-text {
+  text-align: center;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.cart {
+  /* border: 2px solid red; */
+  display: inline-block;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background: white;
+  border-radius: 8px;
+  width: 30%;
+  margin: 15px;
+}
+
+.cart h1 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #1877f2;
+  margin: 10px 0;
+}
+
+.cart p {
+  margin: 5px 0 10px 0;
+  font-size: 20px;
+  color: grey;
+}
+
+.cart h3 {
+  font-weight: 500;
+}
+
+#delete {
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  font-size: 1.25rem;
+  width: inherit;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
